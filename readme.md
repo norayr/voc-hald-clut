@@ -4,7 +4,7 @@ I was interested in HALD CLUT processing for a long time, and had Pascal impleme
 
 The program uses integer trilinear interpolation and preserves the source image's alpha channel. It writes the result as PNG.
 
-The same Oberon processing module builds for sequential execution or for multicore CPU execution through OpenMP, using VOC's experimental `ALL` statements and iteration-local `WITH` variables.
+The same Oberon processing module builds for sequential execution or for multicore CPU execution through OpenMP, using VOC's experimental `ALL` statements and iteration-local `WITH` variables(Oberon-V syntax).
 
 ## Comparison
 
